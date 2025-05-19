@@ -23,6 +23,7 @@
 
 ## **Modelo Conceitual**
 Na imagem a seguir, é possível olhar o modelo conceitual adotado.
+![Modelo Conceitual](modelo-conceitual/modelo-conceitual.png)
 
 ## **Modelo Relacional**
 Na imagem a seguir, é possível olhar o modelo relacional adotado.
