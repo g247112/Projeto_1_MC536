@@ -15,9 +15,11 @@
 
 ## **Datasets**
 
-1. Microdados de Matrícula - SP ()
-2. Carga Horária por Docente - SP ()
+1. Microdados de Matrícula - SP (https://dados.educacao.sp.gov.br/dataset/microdados-de-matr%C3%ADcula-sp)
+2. Carga Horária por Docente - SP (https://dados.educacao.sp.gov.br/dataset/carga-hor%C3%A1ria-por-docente)
    
+Nos respectivos sites, vocês encontraram vários exemplos de datasets de diferentes datas.
+
 **OBS**: Por conta do tamanho dos Datasets (alguns passando de 10GB de memória), o grupo optou por pegar um em específico, diminuir o número de linhas para ficar com um tamanho compatível e adaptá-lo. 
 
 
