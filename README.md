@@ -53,7 +53,7 @@ GROUP BY e.NOMEESC
 HAVING COUNT(m.CD_ALUNO_ANONIMIZADO) > 50
 ORDER BY media_aulas_por_aluno DESC
 LIMIT 10;
-'''
+
 
 3. Aulas Noturnas por Aluno no Turno Noturno:
 
