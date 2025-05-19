@@ -39,7 +39,8 @@ Se encontra na pasta Modelo Físico.
 ## **Consultas não triviais**
 As 5 consultas não triviais realizadas foram:
 1. Média de Aulas Atribuídas por Aluno em cada Escola:
-"""sql
+
+'''sql
 SELECT 
     e.NOMEESC,
     COUNT(m.CD_ALUNO_ANONIMIZADO) AS total_alunos,
@@ -52,10 +53,11 @@ GROUP BY e.NOMEESC
 HAVING COUNT(m.CD_ALUNO_ANONIMIZADO) > 50
 ORDER BY media_aulas_por_aluno DESC
 LIMIT 10;
-"""
+'''
 
-2. Aulas Noturnas por Aluno no Turno Noturno:
-"""sql
+3. Aulas Noturnas por Aluno no Turno Noturno:
+
+'''sql
 SELECT 
     e.NOMEESC,
     COUNT(*) FILTER (WHERE m.TURNO = 'Noturno') AS alunos_noturno,
@@ -68,10 +70,11 @@ GROUP BY e.NOMEESC
 HAVING COUNT(*) FILTER (WHERE m.TURNO = 'Noturno') > 10
 ORDER BY aulas_por_aluno_noturno DESC
 LIMIT 10;
-"""
+'''
 
-3. Total de Aulas Atribuídas por Modalidade de Ensino e Ciclo:
-"""sql
+5. Total de Aulas Atribuídas por Modalidade de Ensino e Ciclo:
+
+'''sql
 SELECT 
     ch.MODAL,
     ch.CICLO,
@@ -79,10 +82,11 @@ SELECT
 FROM CargaHoraria ch
 GROUP BY ch.MODAL, ch.CICLO
 ORDER BY total_aulas DESC;
+'''
 
-"""
 4. Escolas com Maior Número de Matrículas de Alunos com Mobilidade Reduzida:
-"""sql
+
+'''sql
 SELECT 
     e.NOMEESC,
     COUNT(*) AS total_mobilidade_reduzida
@@ -93,10 +97,11 @@ WHERE mse.FLAG_MORIL_REDUZ = TRUE
 GROUP BY e.NOMEESC
 ORDER BY total_mobilidade_reduzida DESC
 LIMIT 10;
-"""
+'''
 
 5. Top 10 Disciplinas com Maior Número de Aulas Atribuídas:
-"""sql
+
+'''sql
 SELECT 
     d.DEN_MATERIA,
     SUM(ch.TOT_GERAL_AULA) AS total_aulas
@@ -105,7 +110,7 @@ JOIN Disciplina d ON ch.CODMAE = d.CODMAE
 GROUP BY d.DEN_MATERIA
 ORDER BY total_aulas DESC
 LIMIT 10;
-"""
+'''
 
 Elas se encontram nos códigos nas pastas Modelo Conceitual e Modelo Relacional.
 
