@@ -25,7 +25,8 @@
 Na imagem a seguir, é possível olhar o modelo conceitual adotado.
 
 ## **Modelo Relacional**
-Na imagem a seguir, é possível olhar o modelo conceitual adotado.
+Na imagem a seguir, é possível olhar o modelo relacional adotado.
+![Modelo Relacional]()
 
 ## **Modelo Físico**
 Se encontra na pasta Modelo Físico.
@@ -37,6 +38,8 @@ As 5 consultas não triviais realizadas foram:
 3. Total de Aulas Atribuídas por Modalidade de Ensino e Ciclo;
 4. Escolas com Maior Número de Matrículas de Alunos com Mobilidade Reduzida;
 5. Top 10 Disciplinas com Maior Número de Aulas Atribuídas.
+
+Elas se encontram nos códigos nas pastas Modelo Conceitual e Modelo Relacional.
 
 ## **Implementação em Python**
 Se encontra na pasta Implementação Python.
