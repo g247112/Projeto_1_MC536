@@ -36,7 +36,7 @@ Na imagem a seguir, é possível olhar o modelo relacional adotado.
 ## **Modelo Físico**
 Se encontra na pasta Modelo Físico.
 
-## **Consultas não triviais**
+## **Consultas Não Triviais**
 As 5 consultas não triviais realizadas foram:
 1. Média de Aulas Atribuídas por Aluno em cada Escola:
 
@@ -112,7 +112,7 @@ ORDER BY total_aulas DESC
 LIMIT 10;
 ```
 
-Elas se encontram nos códigos nas pastas Modelo Conceitual e Modelo Relacional.
+Elas se encontram nos códigos nas pastas Modelo Físico e Implementação Python.
 
 ## **Implementação em Python**
 Se encontra na pasta Implementação Python.
