@@ -26,7 +26,7 @@ Na imagem a seguir, é possível olhar o modelo conceitual adotado.
 
 ## **Modelo Relacional**
 Na imagem a seguir, é possível olhar o modelo relacional adotado.
-![Modelo Relacional]()
+![Modelo Relacional](modelo-relacional/Modelo_Relacional_imagem.png)
 
 ## **Modelo Físico**
 Se encontra na pasta Modelo Físico.
