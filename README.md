@@ -1,6 +1,6 @@
-MC536: Projeto 1 - Educação: garantir uma educação de qualidade, inclusiva e equitativa, promovendo oportunidades de aprendizagem para todos
+**MC536: Projeto 1 - Educação: garantir uma educação de qualidade, inclusiva e equitativa, promovendo oportunidades de aprendizagem para todos
 
-*Overview do Projeto*
+*Overview do Projeto***
 Grupo: 16
 Nomes:
     Gabriel Jeronimo da Silva | RA: 247112
