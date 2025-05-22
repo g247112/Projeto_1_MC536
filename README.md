@@ -114,6 +114,9 @@ ORDER BY total_aulas DESC
 LIMIT 10;
 ```
 
+![image](https://github.com/user-attachments/assets/36dae9fc-8fd9-4d65-98b0-97c3df86a8aa)
+
+
 Elas se encontram nos códigos nas pastas Modelo Físico e Implementação Python.
 
 ## **Implementação em Python**
