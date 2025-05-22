@@ -83,6 +83,8 @@ FROM CargaHoraria ch
 GROUP BY ch.MODAL, ch.CICLO
 ORDER BY total_aulas DESC;
 ```
+![image](https://github.com/user-attachments/assets/6873cc30-b8eb-4632-a153-320fc0f53590)
+
 
 4. Escolas com Maior Número de Matrículas de Alunos com Mobilidade Reduzida:
 
