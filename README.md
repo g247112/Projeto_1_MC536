@@ -79,6 +79,8 @@ HAVING COUNT(*) FILTER (WHERE m.TURNO = 'Noturno') > 10
 ORDER BY aulas_por_aluno_noturno DESC
 LIMIT 10;
 ```
+![image](https://github.com/user-attachments/assets/e51ffd9c-b07e-4121-9023-6e175eb4c74c)
+
 
 3. Total de Aulas Atribuídas por Modalidade de Ensino e Ciclo:
 
@@ -108,6 +110,7 @@ GROUP BY e.NOMEESC
 ORDER BY total_mobilidade_reduzida DESC
 LIMIT 10;
 ```
+![image](https://github.com/user-attachments/assets/018a1197-65b7-44ec-839e-1253e96b4cbf)
 
 5. Top 10 Disciplinas com Maior Número de Aulas Atribuídas:
 
