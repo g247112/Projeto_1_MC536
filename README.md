@@ -68,14 +68,14 @@ LIMIT 10;
 ```sql
 SELECT 
     e.NOMEESC,
-    COUNT(*) FILTER (WHERE m.TURNO = 'Noturno') AS alunos_noturno,
+    COUNT(*) FILTER (WHERE m.TURNO = '5') AS alunos_noturno,
     SUM(ch.TOT_AULAS_NOTURNO) AS aulas_atribuidas_noturno,
-    ROUND(SUM(ch.TOT_AULAS_NOTURNO) * 1.0 / NULLIF(COUNT(*) FILTER (WHERE m.TURNO = 'Noturno'), 0), 2) AS aulas_por_aluno_noturno
+    ROUND(SUM(ch.TOT_AULAS_NOTURNO) * 1.0 / NULLIF(COUNT(*) FILTER (WHERE m.TURNO = '5'), 0), 2) AS aulas_por_aluno_noturno
 FROM Matricula m
 JOIN Escola e ON m.CD_ESCOLA = e.CODESC
 JOIN CargaHoraria ch ON ch.CODESC = e.CODESC
 GROUP BY e.NOMEESC
-HAVING COUNT(*) FILTER (WHERE m.TURNO = 'Noturno') > 10
+HAVING COUNT(*) FILTER (WHERE m.TURNO = '5') > 10
 ORDER BY aulas_por_aluno_noturno DESC
 LIMIT 10;
 ```
