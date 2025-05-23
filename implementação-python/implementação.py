@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, text
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, Boolean, text, Date 
 from sqlalchemy.orm import relationship, sessionmaker, declarative_base
 import pandas as pd
 

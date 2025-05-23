@@ -20,6 +20,12 @@
    
 Nos respectivos sites, vocês encontraram vários exemplos de datasets de diferentes datas.
 
+Nos arquivos filtragem_datasets e unindo_data sets fazemos o ajuste e junção dos arquivos CSVs para manipulação e consultas. 
+No link do drive a seguir, temos o link para uma pasta contendo os datasets já filtrados. Não subimos no git por conta do limite de memória. 
+
+Link Drive: https://drive.google.com/drive/folders/1i8tXeV83DUn-YHogrlxk9sByqUVlE-o0?usp=sharing
+
+
 **OBS**: Por conta do tamanho dos Datasets (alguns passando de 10GB de memória), o grupo optou por pegar um em específico, diminuir o número de linhas para ficar com um tamanho compatível e adaptá-lo. 
 
 
@@ -123,3 +129,5 @@ Elas se encontram nos códigos nas pastas Modelo Físico e Implementação Pytho
 
 ## **Implementação em Python**
 Se encontra na pasta Implementação Python.
+
+Este script foi elaborado para demonstrar o uso do SQLAlchemy como ORM: ele define as tabelas e relacionamentos do banco (como Escola, Aluno, CargaHoraria etc.), cria o esquema com Base.metadata.create_all(), importa dados de um arquivo CSV via pandas e popula cada modelo, e por fim executa consultas SQL (média de aulas por aluno, aulas noturnas, totais por modalidade, entre outras). É um exercício de estudo, sujeito a simplificações e que pode precisar de ajustes para uso em cenários reais.
