@@ -54,6 +54,8 @@ HAVING COUNT(m.CD_ALUNO_ANONIMIZADO) > 50
 ORDER BY media_aulas_por_aluno DESC
 LIMIT 10;
 ```
+![image](https://github.com/user-attachments/assets/e6adbff9-aff5-4c3f-a34c-a248e198538a)
+
 
 2. Aulas Noturnas por Aluno no Turno Noturno:
 
