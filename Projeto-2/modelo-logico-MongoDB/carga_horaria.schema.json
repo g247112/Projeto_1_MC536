@@ -1,0 +1,112 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CargaHoraria",
+    "description": "Coleção de carga horária docente, com disciplina e cargo embutidos e detalhes de aulas",
+    "type": "object",
+    "required": [
+      "ciclo",
+      "modal",
+      "di",
+      "jornada",
+      "codesc",
+      "cargo",
+      "disciplina",
+      "detalhes"
+    ],
+    "properties": {
+      "ciclo": {
+        "type": "string",
+        "description": "Ciclo de ensino (CI, CII, EM)"
+      },
+      "modal": {
+        "type": "string",
+        "description": "Modalidade de ensino (ex: Regular, EJA)"
+      },
+      "di": {
+        "type": "integer",
+        "description": "Dígito identificador"
+      },
+      "jornada": {
+        "type": "integer",
+        "description": "Jornada de trabalho (horas)"
+      },
+      "codesc": {
+        "type": "integer",
+        "description": "Código da escola (referência a Escola.codesc)"
+      },
+      "cargo": {
+        "type": "object",
+        "required": ["cargo_c", "nm_cargoc"],
+        "properties": {
+          "cargo_c": {
+            "type": "integer",
+            "description": "Código do cargo"
+          },
+          "nm_cargoc": {
+            "type": "string",
+            "description": "Nome do cargo"
+          }
+        }
+      },
+      "disciplina": {
+        "type": "object",
+        "required": ["codmae", "den_codmae", "materia", "den_materia"],
+        "properties": {
+          "codmae": {
+            "type": "integer",
+            "description": "Código da disciplina mãe"
+          },
+          "den_codmae": {
+            "type": "string",
+            "description": "Nome da disciplina mãe"
+          },
+          "materia": {
+            "type": "integer",
+            "description": "Código da matéria"
+          },
+          "den_materia": {
+            "type": "string",
+            "description": "Nome da matéria"
+          }
+        }
+      },
+      "detalhes": {
+        "type": "object",
+        "required": [
+          "tot_aula_livre",
+          "tot_aula_subst",
+          "tot_geral_aula",
+          "tot_aula_livre_noturno",
+          "tot_aula_subst_noturno",
+          "tot_aulas_noturno"
+        ],
+        "properties": {
+          "tot_aula_livre": {
+            "type": "integer",
+            "description": "Total de aulas livres"
+          },
+          "tot_aula_subst": {
+            "type": "integer",
+            "description": "Total de aulas de substituição"
+          },
+          "tot_geral_aula": {
+            "type": "integer",
+            "description": "Total geral de aulas"
+          },
+          "tot_aula_livre_noturno": {
+            "type": "integer",
+            "description": "Aulas livres no período noturno"
+          },
+          "tot_aula_subst_noturno": {
+            "type": "integer",
+            "description": "Aulas de substituição no período noturno"
+          },
+          "tot_aulas_noturno": {
+            "type": "integer",
+            "description": "Total geral de aulas noturnas"
+          }
+        }
+      }
+    }
+  }
+  
