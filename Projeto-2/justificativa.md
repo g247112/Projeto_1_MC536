@@ -10,3 +10,4 @@ O MongoDB tem linguagem baseada em JSON que permite manipulações eficientes da
 Esse tipo de banco de dados foi projetado para uma alta escalabilidade horizontal. Através do sharding, o MongoDB permite dividir os dados em outros servidores para garantir, dessa forma, um enorme volume de dados. Além disso, o MongoBG também consegue distribuir as operações de leitura e escrita nos seus servidores com o intuito de reduzir a sua latência. Por fim, esse banco também é projetado para as operações CRUD, garantindo uma baixa latência.
 
 ### Mecanismos de Recuperação e Segurança
+Possui mecanismos de backups e recuperação via point-in-time. Ademais, o controle de acesso é baseado em funções.
