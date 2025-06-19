@@ -1,0 +1,25 @@
+{
+  "name": "mongodb-school-system",
+  "version": "1.0.0",
+  "description": "A school management system using MongoDB.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "init-db": "node init-db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.17.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^6.0.0"
+  },
+  "keywords": [
+    "mongodb",
+    "school",
+    "management",
+    "system"
+  ],
+  "author": "",
+  "license": "ISC"
+}
