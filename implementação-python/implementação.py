@@ -366,16 +366,20 @@ with engine.connect() as conn:
     for linha in resultado:
         print(linha)
 
-# 3. Total de Aulas Atribuídas por Modalidade de Ensino e Ciclo
+# 3. Distribuição de Aulas por disciplinas
 with engine.connect() as conn:
     resultado = conn.execute(text('''
-        SELECT 
-            ch.MODAL,
-            ch.CICLO,
-            SUM(ch.TOT_GERAL_AULA) AS total_aulas
-        FROM CargaHoraria ch
-        GROUP BY ch.MODAL, ch.CICLO
-        ORDER BY total_aulas DESC;
+            SELECT 
+                d.DEN_CODMAE AS disciplina,
+                d.DEN_MATERIA AS materia,
+                COUNT(ch.ID) AS total_atribuicoes
+            FROM 
+                Disciplina d
+                LEFT JOIN CargaHoraria ch ON ch.CODMAE = d.CODMAE
+            GROUP BY 
+                d.DEN_CODMAE, d.DEN_MATERIA
+            ORDER BY
+                total_atribuicoes DESC;
     '''))
     for linha in resultado:
         print(linha)
