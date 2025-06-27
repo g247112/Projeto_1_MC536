@@ -32,7 +32,7 @@ Link Drive: https://drive.google.com/drive/folders/1i8tXeV83DUn-YHogrlxk9sByqUVl
 ## **Modelo Conceitual**
 Na imagem a seguir, é possível olhar o modelo conceitual adotado.
 
-![Modelo Conceitual](modelo-conceitual/modelo-conceitual.png)
+![Modelo Conceitual](modelo-conceitual/modelo_conceitual.drawio.png)
 
 ## **Modelo Relacional**
 Na imagem a seguir, é possível olhar o modelo relacional adotado.
@@ -82,16 +82,20 @@ LIMIT 10;
 ![image](https://github.com/user-attachments/assets/e51ffd9c-b07e-4121-9023-6e175eb4c74c)
 
 
-3. Total de Aulas Atribuídas por Modalidade de Ensino e Ciclo:
+3. Distribuição de Aulas por disciplinas:
 
 ```sql
 SELECT 
-    ch.MODAL,
-    ch.CICLO,
-    SUM(ch.TOT_GERAL_AULA) AS total_aulas
-FROM CargaHoraria ch
-GROUP BY ch.MODAL, ch.CICLO
-ORDER BY total_aulas DESC;
+    d.DEN_CODMAE AS disciplina,
+    d.DEN_MATERIA AS materia,
+    COUNT(ch.ID) AS total_atribuicoes
+FROM 
+    Disciplina d
+    LEFT JOIN CargaHoraria ch ON ch.CODMAE = d.CODMAE
+GROUP BY 
+    d.DEN_CODMAE, d.DEN_MATERIA
+ORDER BY 
+    total_atribuicoes DESC;
 ```
 ![image](https://github.com/user-attachments/assets/6873cc30-b8eb-4632-a153-320fc0f53590)
 
