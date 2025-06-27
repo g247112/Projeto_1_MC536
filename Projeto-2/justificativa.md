@@ -11,3 +11,6 @@ Esse tipo de banco de dados foi projetado para uma alta escalabilidade horizonta
 
 ### Mecanismos de Recuperação e Segurança
 Possui mecanismos de backups e recuperação via point-in-time. Ademais, o controle de acesso é baseado em funções.
+
+### Link do Drive
+Por conta do tamanho dos arquivos JSON, colocamos eles no drive. Link do drive: https://drive.google.com/drive/u/1/folders/1RcRHqONOBoTpqbOBax4PQN6mDMsAUKoh
