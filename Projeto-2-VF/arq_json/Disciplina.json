@@ -1,0 +1,72 @@
+[
+  {
+    "id": "DISC001",
+    "DEN_CODMAE": "MATEMATICA",
+    "MATERIA": "MAT01",
+    "DEN_MATERIA": "MATEMATICA",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC002",
+    "DEN_CODMAE": "PORTUGUES",
+    "MATERIA": "POR02",
+    "DEN_MATERIA": "LINGUA PORTUGUESA",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC003",
+    "DEN_CODMAE": "HISTORIA",
+    "MATERIA": "HIS03",
+    "DEN_MATERIA": "HISTORIA DO BRASIL",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC004",
+    "DEN_CODMAE": "GEOGRAFIA",
+    "MATERIA": "GEO04",
+    "DEN_MATERIA": "GEOGRAFIA GERAL",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC005",
+    "DEN_CODMAE": "CIENCIAS",
+    "MATERIA": "CIE05",
+    "DEN_MATERIA": "CIENCIAS DA NATUREZA",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC006",
+    "DEN_CODMAE": "INGLES",
+    "MATERIA": "ING06",
+    "DEN_MATERIA": "INGLES",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC007",
+    "DEN_CODMAE": "ARTE",
+    "MATERIA": "ART07",
+    "DEN_MATERIA": "ARTE E CULTURA",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC008",
+    "DEN_CODMAE": "ED_FISICA",
+    "MATERIA": "EDF08",
+    "DEN_MATERIA": "EDUCACAO FISICA",
+    "DEN_CICLO": "EF ANOS FINAIS"
+  },
+  {
+    "id": "DISC009",
+    "DEN_CODMAE": "QUIMICA",
+    "MATERIA": "QUI09",
+    "DEN_MATERIA": "QUIMICA GERAL",
+    "DEN_CICLO": "ENSINO MEDIO"
+  },
+  {
+    "id": "DISC010",
+    "DEN_CODMAE": "FISICA",
+    "MATERIA": "FIS10",
+    "DEN_MATERIA": "FISICA AVANCADA",
+    "DEN_CICLO": "ENSINO MEDIO"
+  }
+]

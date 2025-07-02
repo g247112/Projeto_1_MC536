@@ -1,0 +1,82 @@
+[
+  {
+    "id": "MATR001",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO001",
+    "CD_ESCOLA": "ESC001",
+    "CD_TURMA": "TURMA001",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR002",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO002",
+    "CD_ESCOLA": "ESC002",
+    "CD_TURMA": "TURMA002",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR003",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO003",
+    "CD_ESCOLA": "ESC003",
+    "CD_TURMA": "TURMA003",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR004",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO004",
+    "CD_ESCOLA": "ESC001",
+    "CD_TURMA": "TURMA001",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR005",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO005",
+    "CD_ESCOLA": "ESC005",
+    "CD_TURMA": "TURMA004",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR006",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO006",
+    "CD_ESCOLA": "ESC006",
+    "CD_TURMA": "TURMA005",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR007",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO007",
+    "CD_ESCOLA": "ESC007",
+    "CD_TURMA": "TURMA006",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR008",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO008",
+    "CD_ESCOLA": "ESC008",
+    "CD_TURMA": "TURMA007",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR009",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO009",
+    "CD_ESCOLA": "ESC009",
+    "CD_TURMA": "TURMA008",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  },
+  {
+    "id": "MATR010",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO010",
+    "CD_ESCOLA": "ESC010",
+    "CD_TURMA": "TURMA009",
+    "DTINI_MATRIC": "01/02/2024",
+    "DTFIM_MATRIC": "15/12/2024"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MOB001",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO001",
+    "FLAG_MOBIL_REDUZ": "0",
+    "TIPO_MOBIL_REDUZ": "0"
+  },
+  {
+    "id": "MOB002",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO002",
+    "FLAG_MOBIL_REDUZ": "1",
+    "TIPO_MOBIL_REDUZ": "CADEIRA_RODAS"
+  },
+  {
+    "id": "MOB003",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO003",
+    "FLAG_MOBIL_REDUZ": "0",
+    "TIPO_MOBIL_REDUZ": "0"
+  },
+  {
+    "id": "MOB004",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO004",
+    "FLAG_MOBIL_REDUZ": "0",
+    "TIPO_MOBIL_REDUZ": "0"
+  },
+  {
+    "id": "MOB005",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO005",
+    "FLAG_MOBIL_REDUZ": "1",
+    "TIPO_MOBIL_REDUZ": "DEF_VISUAL"
+  },
+  {
+    "id": "MOB006",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO006",
+    "FLAG_MOBIL_REDUZ": "0",
+    "TIPO_MOBIL_REDUZ": "0"
+  },
+  {
+    "id": "MOB007",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO007",
+    "FLAG_MOBIL_REDUZ": "0",
+    "TIPO_MOBIL_REDUZ": "0"
+  },
+  {
+    "id": "MOB008",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO008",
+    "FLAG_MOBIL_REDUZ": "1",
+    "TIPO_MOBIL_REDUZ": "DEF_AUDITIVA"
+  },
+  {
+    "id": "MOB009",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO009",
+    "FLAG_MOBIL_REDUZ": "0",
+    "TIPO_MOBIL_REDUZ": "0"
+  },
+  {
+    "id": "MOB010",
+    "CD_ALUNO_ANONIMIZADO": "ALUNO010",
+    "FLAG_MOBIL_REDUZ": "0",
+    "TIPO_MOBIL_REDUZ": "0"
+  }
+]

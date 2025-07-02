@@ -1,0 +1,92 @@
+[
+  {
+    "id": "E_ID001",
+    "CD_INEP": "35049098",
+    "CODESC": "ESC001",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "ESCOLA AZUL",
+    "NM_MUNICIPIO": "SAO PAULO"
+  },
+  {
+    "id": "E_ID002",
+    "CD_INEP": "35049099",
+    "CODESC": "ESC002",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "ESCOLA VERDE",
+    "NM_MUNICIPIO": "CAMPINAS"
+  },
+  {
+    "id": "E_ID003",
+    "CD_INEP": "35049100",
+    "CODESC": "ESC003",
+    "CATESC": "TECNICA",
+    "TPESC": "8",
+    "NOMEESC": "INSTITUTO TECNICO BRASIL",
+    "NM_MUNICIPIO": "SAO PAULO"
+  },
+  {
+    "id": "E_ID004",
+    "CD_INEP": "35049101",
+    "CODESC": "ESC004",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "ESCOLA LUZ DO SABER",
+    "NM_MUNICIPIO": "OSASCO"
+  },
+  {
+    "id": "E_ID005",
+    "CD_INEP": "35049102",
+    "CODESC": "ESC005",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "COLEGIO ALFA",
+    "NM_MUNICIPIO": "RIO DE JANEIRO"
+  },
+  {
+    "id": "E_ID006",
+    "CD_INEP": "35049103",
+    "CODESC": "ESC006",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "ESCOLA DO CAMPO",
+    "NM_MUNICIPIO": "BELO HORIZONTE"
+  },
+  {
+    "id": "E_ID007",
+    "CD_INEP": "35049104",
+    "CODESC": "ESC007",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "CIDADAO ESCOLA",
+    "NM_MUNICIPIO": "PORTO ALEGRE"
+  },
+  {
+    "id": "E_ID008",
+    "CD_INEP": "35049105",
+    "CODESC": "ESC008",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "ESCOLA PIONEIRA",
+    "NM_MUNICIPIO": "CURITIBA"
+  },
+  {
+    "id": "E_ID009",
+    "CD_INEP": "35049106",
+    "CODESC": "ESC009",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "ESCOLA VIVA",
+    "NM_MUNICIPIO": "SALVADOR"
+  },
+  {
+    "id": "E_ID010",
+    "CD_INEP": "35049107",
+    "CODESC": "ESC010",
+    "CATESC": "REGULAR",
+    "TPESC": "1",
+    "NOMEESC": "ESCOLA NOVO HORIZONTE",
+    "NM_MUNICIPIO": "RECIFE"
+  }
+]

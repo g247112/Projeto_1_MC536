@@ -1,0 +1,92 @@
+[
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO001",
+    "IDADE": "12",
+    "SEXO": "M",
+    "CORRACA": "1",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "SAO PAULO",
+    "UF_MUN_NASC": "SP"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO002",
+    "IDADE": "13",
+    "SEXO": "F",
+    "CORRACA": "3",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "CAMPINAS",
+    "UF_MUN_NASC": "SP"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO003",
+    "IDADE": "15",
+    "SEXO": "M",
+    "CORRACA": "2",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "OSASCO",
+    "UF_MUN_NASC": "SP"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO004",
+    "IDADE": "10",
+    "SEXO": "F",
+    "CORRACA": "1",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "SAO PAULO",
+    "UF_MUN_NASC": "SP"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO005",
+    "IDADE": "16",
+    "SEXO": "M",
+    "CORRACA": "4",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "RIO DE JANEIRO",
+    "UF_MUN_NASC": "RJ"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO006",
+    "IDADE": "11",
+    "SEXO": "F",
+    "CORRACA": "1",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "BELO HORIZONTE",
+    "UF_MUN_NASC": "MG"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO007",
+    "IDADE": "14",
+    "SEXO": "M",
+    "CORRACA": "2",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "PORTO ALEGRE",
+    "UF_MUN_NASC": "RS"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO008",
+    "IDADE": "17",
+    "SEXO": "F",
+    "CORRACA": "1",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "CURITIBA",
+    "UF_MUN_NASC": "PR"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO009",
+    "IDADE": "10",
+    "SEXO": "M",
+    "CORRACA": "5",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "SALVADOR",
+    "UF_MUN_NASC": "BA"
+  },
+  {
+    "CD_ALUNO_ANONIMIZADO": "ALUNO010",
+    "IDADE": "18",
+    "SEXO": "F",
+    "CORRACA": "1",
+    "NACIONALIDADE": "1",
+    "MUNICIPIO_NASCIMENTO": "RECIFE",
+    "UF_MUN_NASC": "PE"
+  }
+]

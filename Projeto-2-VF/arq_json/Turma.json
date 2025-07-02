@@ -1,0 +1,62 @@
+[
+  {
+    "CD_TURMA": "TURMA001",
+    "DS_TURMA": "6A MATUTINO",
+    "TIPOCLASSE": "0",
+    "GRAU": "6"
+  },
+  {
+    "CD_TURMA": "TURMA002",
+    "DS_TURMA": "7B VESPERTINO",
+    "TIPOCLASSE": "0",
+    "GRAU": "7"
+  },
+  {
+    "CD_TURMA": "TURMA003",
+    "DS_TURMA": "8C NOTURNO EJA",
+    "TIPOCLASSE": "1",
+    "GRAU": "8"
+  },
+  {
+    "CD_TURMA": "TURMA004",
+    "DS_TURMA": "9D MATUTINO",
+    "TIPOCLASSE": "0",
+    "GRAU": "9"
+  },
+  {
+    "CD_TURMA": "TURMA005",
+    "DS_TURMA": "1EM VESPERTINO",
+    "TIPOCLASSE": "0",
+    "GRAU": "10"
+  },
+  {
+    "CD_TURMA": "TURMA006",
+    "DS_TURMA": "2EM NOTURNO EJA",
+    "TIPOCLASSE": "1",
+    "GRAU": "11"
+  },
+  {
+    "CD_TURMA": "TURMA007",
+    "DS_TURMA": "3EM MATUTINO",
+    "TIPOCLASSE": "0",
+    "GRAU": "12"
+  },
+  {
+    "CD_TURMA": "TURMA008",
+    "DS_TURMA": "6A VESPERTINO",
+    "TIPOCLASSE": "0",
+    "GRAU": "6"
+  },
+  {
+    "CD_TURMA": "TURMA009",
+    "DS_TURMA": "7B NOTURNO EJA",
+    "TIPOCLASSE": "1",
+    "GRAU": "7"
+  },
+  {
+    "CD_TURMA": "TURMA010",
+    "DS_TURMA": "8C MATUTINO",
+    "TIPOCLASSE": "0",
+    "GRAU": "8"
+  }
+]

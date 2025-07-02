@@ -1,0 +1,233 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Matricula",
+    "description": "Coleção de matrículas, referenciando Aluno e Escola, com subdocumentos de inclusão, suporte, resultado e turma",
+    "type": "object",
+    "required": [
+      "aluno_id",
+      "escola_id",
+      "cd_turma",
+      "dt_matric",
+      "dtini_matric",
+      "dtfim_matric",
+      "flag_sit_aluno",
+      "inclusao_social",
+      "suporte_educacional",
+      "resultado",
+      "turma"
+    ],
+    "properties": {
+      "aluno_id": {
+        "type": "string",
+        "description": "Referência ao código anônimo do aluno (Aluno.cd_aluno_anonimizado)"
+      },
+      "escola_id": {
+        "type": "integer",
+        "description": "Referência ao código da escola (Escola.codesc)"
+      },
+      "cd_turma": {
+        "type": "string",
+        "description": "Código da turma"
+      },
+      "dt_matric": {
+        "type": "string",
+        "format": "date",
+        "description": "Data da matrícula"
+      },
+      "dtini_matric": {
+        "type": "string",
+        "format": "date",
+        "description": "Início da matrícula"
+      },
+      "dtfim_matric": {
+        "type": "string",
+        "format": "date",
+        "description": "Fim da matrícula"
+      },
+      "flag_sit_aluno": {
+        "type": "string",
+        "description": "Situação do aluno na matrícula (ex: ativo, transferido)"
+      },
+      "inclusao_social": {
+        "type": "object",
+        "required": [
+          "flag_bolsa_fam",
+          "flag_quilombo",
+          "def1",
+          "def2",
+          "def3",
+          "def4",
+          "def5",
+          "def6",
+          "def7",
+          "def8",
+          "def9",
+          "def10"
+        ],
+        "properties": {
+          "flag_bolsa_fam": {
+            "type": "boolean",
+            "description": "Recebe Bolsa Família?"
+          },
+          "flag_quilombo": {
+            "type": "boolean",
+            "description": "Pertence à comunidade quilombola?"
+          },
+          "def1": { "type": "boolean", "description": "Deficiência 1" },
+          "def2": { "type": "boolean", "description": "Deficiência 2" },
+          "def3": { "type": "boolean", "description": "Deficiência 3" },
+          "def4": { "type": "boolean", "description": "Deficiência 4" },
+          "def5": { "type": "boolean", "description": "Deficiência 5" },
+          "def6": { "type": "boolean", "description": "Deficiência 6" },
+          "def7": { "type": "boolean", "description": "Deficiência 7" },
+          "def8": { "type": "boolean", "description": "Deficiência 8" },
+          "def9": { "type": "boolean", "description": "Deficiência 9" },
+          "def10": { "type": "boolean", "description": "Deficiência 10" }
+        }
+      },
+      "suporte_educacional": {
+        "type": "object",
+        "required": [
+          "flag_moril_reduz",
+          "tipo_mobil_reduz",
+          "flag_cuidador",
+          "tipo_cuidador",
+          "flag_prof_saude",
+          "tipo_prof_saude",
+          "id_aux_lei",
+          "id_fonte",
+          "id_aux_trans",
+          "id_guia_interpr",
+          "id_comp_leitor_tela",
+          "id_interpr_libras",
+          "id_lei_lab",
+          "id_prova_ampl",
+          "id_prova_braile",
+          "id_sem_neces_rec",
+          "id_vence"
+        ],
+        "properties": {
+          "flag_moril_reduz": {
+            "type": "boolean",
+            "description": "Possui mobilidade reduzida?"
+          },
+          "tipo_mobil_reduz": {
+            "type": "string",
+            "description": "Tipo de mobilidade reduzida (ex: cadeira de rodas)"
+          },
+          "flag_cuidador": {
+            "type": "boolean",
+            "description": "Acompanhado por cuidador?"
+          },
+          "tipo_cuidador": {
+            "type": "string",
+            "description": "Tipo de cuidador"
+          },
+          "flag_prof_saude": {
+            "type": "boolean",
+            "description": "Recebe assistência de profissional de saúde?"
+          },
+          "tipo_prof_saude": {
+            "type": "string",
+            "description": "Tipo de profissional de saúde"
+          },
+          "id_aux_lei": {
+            "type": "boolean",
+            "description": "Recebe auxílio para leitura?"
+          },
+          "id_fonte": {
+            "type": "boolean",
+            "description": "Utiliza fontes ampliadas?"
+          },
+          "id_aux_trans": {
+            "type": "boolean",
+            "description": "Recebe apoio para transporte?"
+          },
+          "id_guia_interpr": {
+            "type": "boolean",
+            "description": "Possui guia-intérprete?"
+          },
+          "id_comp_leitor_tela": {
+            "type": "boolean",
+            "description": "Utiliza leitor de tela?"
+          },
+          "id_interpr_libras": {
+            "type": "boolean",
+            "description": "Recebe apoio de intérprete de Libras?"
+          },
+          "id_lei_lab": {
+            "type": "boolean",
+            "description": "Leitura em laboratório adaptada?"
+          },
+          "id_prova_ampl": {
+            "type": "boolean",
+            "description": "Provas ampliadas?"
+          },
+          "id_prova_braile": {
+            "type": "boolean",
+            "description": "Provas em braile?"
+          },
+          "id_sem_neces_rec": {
+            "type": "boolean",
+            "description": "Não necessita de recursos específicos?"
+          },
+          "id_vence": {
+            "type": "boolean",
+            "description": "Vence dificuldades com apoio?"
+          }
+        }
+      },
+      "resultado": {
+        "type": "object",
+        "required": ["pronatec", "rendimento"],
+        "properties": {
+          "pronatec": {
+            "type": "boolean",
+            "description": "Participa do PRONATEC?"
+          },
+          "rendimento": {
+            "type": "string",
+            "description": "Rendimento (ex: Aprovado, Reprovado)"
+          }
+        }
+      },
+      "turma": {
+        "type": "object",
+        "required": [
+          "ds_turma",
+          "tipoclasse",
+          "grau",
+          "serie",
+          "turno",
+          "durclasse"
+        ],
+        "properties": {
+          "ds_turma": {
+            "type": "string",
+            "description": "Descrição da turma"
+          },
+          "tipoclasse": {
+            "type": "string",
+            "description": "Tipo de classe"
+          },
+          "grau": {
+            "type": "string",
+            "description": "Grau de ensino"
+          },
+          "serie": {
+            "type": "string",
+            "description": "Série escolar"
+          },
+          "turno": {
+            "type": "string",
+            "description": "Turno escolar"
+          },
+          "durclasse": {
+            "type": "string",
+            "description": "Duração da classe"
+          }
+        }
+      }
+    }
+  }
+  
